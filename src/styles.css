@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+.wrap {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+app-user, app-post, app-comment {
+  padding: 10px;
+  border: 1px solid dimgrey;
+  text-align: center;
+  flex: 1 1 40%;
+}
+
+app-user:hover, app-post:hover, app-comment:hover {
+  background-color: lightsteelblue;
+  cursor: pointer;
+}
+
+.details {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.details{
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}

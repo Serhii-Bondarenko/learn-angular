@@ -1,0 +1,17 @@
+.wrap {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+app-user {
+  border: 1px solid dimgrey;
+  text-align: center;
+  flex: 1 1 40%;
+}
+
+app-user:hover {
+  background-color: lightsteelblue;
+  cursor: pointer;
+}
