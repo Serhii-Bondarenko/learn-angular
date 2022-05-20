@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+app-users, app-posts, app-comments {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+  text-align: center;
+}
+
+app-user, app-post, app-comment {
+  padding: 20px;
+  border: 1px silver solid;
+  flex: 1 1 40%;
+}
+
+.details {
+  text-align: center;
+  margin: 50px 0;
+}

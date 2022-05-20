@@ -1,0 +1,15 @@
+.nav-bar{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: cadetblue;
+  padding: 20px 0;
+}
+
+.nav-bar a {
+  color: white;
+  padding: 5px;
+}
+
+.nav-bar a:focus {
+  background-color: lightsteelblue;
+}
